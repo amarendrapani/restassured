@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restassuredPratice.UseOf_BeforeTest_Annotation_inGetApi">
+      <class name="getapiwithoutbdd.Non_BDD_Approach_For_ContactApi">
         <methods>
-          <include name="getApiRequestUsungQueryParameter"/>
-          <include name="setUP"/>
+          <include name="getProductsTest_1"/>
         </methods>
-      </class> <!-- restassuredPratice.UseOf_BeforeTest_Annotation_inGetApi -->
+      </class> <!-- getapiwithoutbdd.Non_BDD_Approach_For_ContactApi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

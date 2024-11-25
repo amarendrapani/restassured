@@ -1,4 +1,4 @@
-package restassuredPratice;
+package getapiwithoutbdd;
 
 
 import java.util.List;

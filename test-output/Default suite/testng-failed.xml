@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="getapiwithoutbdd.Non_BDD_Approach_For_ContactApi">
+      <class name="getApiwithBddpattern.Get_Api_With_Queryparameter_and_Pathparameter">
         <methods>
-          <include name="getProductsTest_1"/>
+          <include name="getuser_With_Queryparams"/>
         </methods>
-      </class> <!-- getapiwithoutbdd.Non_BDD_Approach_For_ContactApi -->
+      </class> <!-- getApiwithBddpattern.Get_Api_With_Queryparameter_and_Pathparameter -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

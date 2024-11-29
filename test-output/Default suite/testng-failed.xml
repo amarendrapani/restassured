@@ -5,7 +5,7 @@
     <classes>
       <class name="getApiwithBddpattern.Get_Api_With_Queryparameter_and_Pathparameter">
         <methods>
-          <include name="getuser_With_Queryparams"/>
+          <include name="getUserApi_With_Pathparameter_WithDataProvider" invocation-numbers="0"/>
         </methods>
       </class> <!-- getApiwithBddpattern.Get_Api_With_Queryparameter_and_Pathparameter -->
     </classes>

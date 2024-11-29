@@ -6,6 +6,8 @@ import  io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.hasItem;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -171,7 +173,9 @@ public class Get_Api_With_Queryparameter_and_Pathparameter {
 		public Object[][] getUserId(){
 			return new Object[][] {
 				
-				{"6942516"},{"7589658"},{"5285698"}
+				{"6942826"}
+				//,{"7589658"}
+			//	,{"5285698"}
 				
 				};
 				
@@ -190,8 +194,10 @@ public class Get_Api_With_Queryparameter_and_Pathparameter {
 							.get("/public/v2/users/{userid}/posts")
 								.then().log().all()
 									.assertThat()
-										.statusCode(200);
-			
+										.statusCode(200)
+										.and()
+										//.body("title", equalTo("this is my body")); //json object
+										.body("title", hasItem("this is my body"));  // json Array
 			
 		}
 		

@@ -1,44 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="7" passed="2" failed="0" skipped="0">
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-26T15:21:24 IST" name="Default suite" finished-at="2024-11-26T15:21:28 IST" duration-ms="4198">
+  <suite started-at="2024-11-29T00:54:53 IST" name="Default suite" finished-at="2024-11-29T00:54:56 IST" duration-ms="2833">
     <groups>
     </groups>
-    <test started-at="2024-11-26T15:21:24 IST" name="Default test" finished-at="2024-11-26T15:21:28 IST" duration-ms="4198">
+    <test started-at="2024-11-29T00:54:53 IST" name="Default test" finished-at="2024-11-29T00:54:56 IST" duration-ms="2833">
       <class name="getApiwithBddpattern.Get_Api_With_Queryparameter_and_Pathparameter">
-        <test-method signature="getuser_With_Queryparams_Using_Dataprovider(java.lang.String, java.lang.String)[pri:0, instance:getApiwithBddpattern.Get_Api_With_Queryparameter_and_Pathparameter@6a03bcb1]" started-at="2024-11-26T15:21:24 IST" name="getuser_With_Queryparams_Using_Dataprovider" data-provider="getUsername_and_Status" finished-at="2024-11-26T15:21:28 IST" duration-ms="3803" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[trivedi]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[active]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="getUserApi_With_Pathparameter()[pri:0, instance:getApiwithBddpattern.Get_Api_With_Queryparameter_and_Pathparameter@2898ac89]" started-at="2024-11-29T00:54:53 IST" name="getUserApi_With_Pathparameter" finished-at="2024-11-29T00:54:56 IST" duration-ms="2781" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getuser_With_Queryparams_Using_Dataprovider -->
-        <test-method signature="getuser_With_Queryparams_Using_Dataprovider(java.lang.String, java.lang.String)[pri:0, instance:getApiwithBddpattern.Get_Api_With_Queryparameter_and_Pathparameter@6a03bcb1]" started-at="2024-11-26T15:21:28 IST" name="getuser_With_Queryparams_Using_Dataprovider" data-provider="getUsername_and_Status" finished-at="2024-11-26T15:21:28 IST" duration-ms="312" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[trivedi]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[inactive]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getuser_With_Queryparams_Using_Dataprovider -->
+        </test-method> <!-- getUserApi_With_Pathparameter -->
       </class> <!-- getApiwithBddpattern.Get_Api_With_Queryparameter_and_Pathparameter -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

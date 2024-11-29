@@ -44,7 +44,7 @@ public class ContactApiTestWithBddFormat {
 		
 		given().log().all()
 			//intensionally passing the wrong bearear token.
-			.header("Authorization", "Bearer hbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzQyMTExYzFkNDUzYTAwMTMzNTBjYTQiLCJpYXQiOjE3MzIzOTIxMjV9.dtj2-qns3BdQn3Z0MG2uvWSGp1BSirD2DEGVME3VG5s")
+			.header("Authorization", "Bearer hb")
 				.when().log().all()
 					.get("/contactList")
 						.then().log().all()

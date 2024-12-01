@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="getApiwithBddpattern.Get_Api_With_Queryparameter_and_Pathparameter">
+      <class name="bookingApiTest.BookingApiFeatureTests">
         <methods>
-          <include name="getUserApi_With_Pathparameter_WithDataProvider" invocation-numbers="0"/>
+          <include name="getToken"/>
+          <include name="updateBookingTest"/>
         </methods>
-      </class> <!-- getApiwithBddpattern.Get_Api_With_Queryparameter_and_Pathparameter -->
+      </class> <!-- bookingApiTest.BookingApiFeatureTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

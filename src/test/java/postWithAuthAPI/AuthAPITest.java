@@ -13,6 +13,8 @@ import org.testng.annotations.Test;
 
 public class AuthAPITest {
 	
+	
+	// This approach is not recommended , but for praticing am explaing this for better understanding .
 	@Test
 	public void getAuthTokenTest() {
 		
@@ -38,6 +40,8 @@ public class AuthAPITest {
 	}
 	
 	
+	
+	// this approach we can use only when we have fixed json payload not dynamic payload
 	@Test
 	public void getAuthTokenTest_With_jsonFile() {
 		
@@ -59,13 +63,16 @@ public class AuthAPITest {
 			
 	}
 	
-	//WIP
+	// if we have dynamic payload then we can use this process.
+	//pojo to json === serialization.
+	//json to pojo === de serialization.
+	// jackson-databind library required for it. 
 	@Test
 	public void getAuthTokenTest_With_PojoClass() {
 		
 		RestAssured.baseURI = "https://restful-booker.herokuapp.com";
 		
-		Credential cred = new Credential("admin", "password123");
+		Credential cred = new Credential("admin","password123");
 		
 		String tokenId = given().log().all()
 		.contentType(ContentType.JSON)

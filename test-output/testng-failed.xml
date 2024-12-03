@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="bookingApiTest.BookingApiFeatureTests">
+      <class name="postWithAuthAPI.AuthAPITest">
         <methods>
-          <include name="getToken"/>
-          <include name="updateBookingTest"/>
+          <include name="getAuthTokenTest_With_PojoClass"/>
         </methods>
-      </class> <!-- bookingApiTest.BookingApiFeatureTests -->
+      </class> <!-- postWithAuthAPI.AuthAPITest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

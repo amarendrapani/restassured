@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-03T17:20:19 IST" name="Default suite" finished-at="2024-12-03T17:20:35 IST" duration-ms="16229">
+  <suite started-at="2024-12-03T19:58:43 IST" name="Default suite" finished-at="2024-12-03T19:58:48 IST" duration-ms="4842">
     <groups>
     </groups>
-    <test started-at="2024-12-03T17:20:19 IST" name="Default test" finished-at="2024-12-03T17:20:35 IST" duration-ms="16229">
-      <class name="postWithAuthAPI.AuthAPITest">
-        <test-method signature="getAuthTokenTest_With_PojoClass()[pri:0, instance:postWithAuthAPI.AuthAPITest@6cdba6dc]" started-at="2024-12-03T17:20:19 IST" name="getAuthTokenTest_With_PojoClass" finished-at="2024-12-03T17:20:35 IST" duration-ms="16078" status="PASS">
+    <test started-at="2024-12-03T19:58:43 IST" name="Default test" finished-at="2024-12-03T19:58:48 IST" duration-ms="4842">
+      <class name="postApiWithCreateUser.UpdateUserWithPojo">
+        <test-method signature="updateTheUserWith_Pojoclass()[pri:0, instance:postApiWithCreateUser.UpdateUserWithPojo@3eb81efb]" started-at="2024-12-03T19:58:43 IST" name="updateTheUserWith_Pojoclass" finished-at="2024-12-03T19:58:48 IST" duration-ms="4744" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAuthTokenTest_With_PojoClass -->
-      </class> <!-- postWithAuthAPI.AuthAPITest -->
+        </test-method> <!-- updateTheUserWith_Pojoclass -->
+      </class> <!-- postApiWithCreateUser.UpdateUserWithPojo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

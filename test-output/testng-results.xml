@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-03T19:58:43 IST" name="Default suite" finished-at="2024-12-03T19:58:48 IST" duration-ms="4842">
+  <suite started-at="2024-12-05T14:23:34 IST" name="Default suite" finished-at="2024-12-05T14:23:39 IST" duration-ms="4029">
     <groups>
     </groups>
-    <test started-at="2024-12-03T19:58:43 IST" name="Default test" finished-at="2024-12-03T19:58:48 IST" duration-ms="4842">
-      <class name="postApiWithCreateUser.UpdateUserWithPojo">
-        <test-method signature="updateTheUserWith_Pojoclass()[pri:0, instance:postApiWithCreateUser.UpdateUserWithPojo@3eb81efb]" started-at="2024-12-03T19:58:43 IST" name="updateTheUserWith_Pojoclass" finished-at="2024-12-03T19:58:48 IST" duration-ms="4744" status="PASS">
+    <test started-at="2024-12-05T14:23:34 IST" name="Default test" finished-at="2024-12-05T14:23:39 IST" duration-ms="4029">
+      <class name="jsonarrauusercreation.Json_Array_complex_Creation_Lombok">
+        <test-method signature="createUserWithjsonarraylombok_Builder()[pri:0, instance:jsonarrauusercreation.Json_Array_complex_Creation_Lombok@1ae8bcbc]" started-at="2024-12-05T14:23:35 IST" name="createUserWithjsonarraylombok_Builder" finished-at="2024-12-05T14:23:38 IST" duration-ms="3862" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateTheUserWith_Pojoclass -->
-      </class> <!-- postApiWithCreateUser.UpdateUserWithPojo -->
+        </test-method> <!-- createUserWithjsonarraylombok_Builder -->
+      </class> <!-- jsonarrauusercreation.Json_Array_complex_Creation_Lombok -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

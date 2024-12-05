@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="postApiWithCreateUser.UpdateUserWithPojo">
+      <class name="jsonarrauusercreation.Json_Array_complex_Creation_Lombok">
         <methods>
-          <include name="updateTheUserWith_Pojoclass"/>
+          <include name="createUserWithjsonarraylombok"/>
         </methods>
-      </class> <!-- postApiWithCreateUser.UpdateUserWithPojo -->
+      </class> <!-- jsonarrauusercreation.Json_Array_complex_Creation_Lombok -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

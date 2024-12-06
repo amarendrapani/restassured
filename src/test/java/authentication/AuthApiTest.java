@@ -18,8 +18,10 @@ public class AuthApiTest {
 	
 	
 	//form
-	//Oauth1
-	//OAuth2
+	
+	//Oauth1 -- only for web app
+	
+	//OAuth2-- use it in mobile app, native app, window app, anywhere you can usethis .
 	//JWT
 	
 	

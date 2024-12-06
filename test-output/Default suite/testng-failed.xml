@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="jsonarrauusercreation.Json_Array_complex_Creation_Lombok">
+      <class name="authentication.AuthApiTest">
         <methods>
-          <include name="createUserWithjsonarraylombok"/>
+          <include name="digastiveAuthTest"/>
         </methods>
-      </class> <!-- jsonarrauusercreation.Json_Array_complex_Creation_Lombok -->
+      </class> <!-- authentication.AuthApiTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

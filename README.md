@@ -15,7 +15,7 @@ This repository is a comprehensive collection of Rest Assured examples and pract
 - **POJO Creation**:
   - Examples of POJO (Plain Old Java Object) classes for both JSON and XML payloads.
 - **Authentication APIs**:
-  - Covered basic, preemptive, digest authentication, OAuth 1.0/2.0, and JWT token examples.
+  - Covered basic, preemptive, digest authentication, OAuth 1.0/2.0, and token examples.
 
 ---
 
